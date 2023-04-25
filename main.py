@@ -254,7 +254,7 @@ schedule_change_handler = ConversationHandler(
 
 
 def main():
-    application = Application.builder().token("6059713391:AAHNqw1aTekfyAMEUqU9pUWFMNnTM0qLbik").build()
+    application = Application.builder().token("TOKEN").build()
     application.add_handler(question_handler)
     application.add_handler(task_conversation_handler)
     application.add_handler(schedule_change_handler)
