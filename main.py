@@ -108,7 +108,7 @@ async def call_schedule(update, context):
 
 async def schedule_func(update, context):
     today = int(datetime.date.today().weekday())
-    if today == 6 or today == 7:
+    if today == 5 or today == 6:
         await update.message.reply_text(
             "Сегодня выходной, можешь отдыхать."
         )
